@@ -1,7 +1,9 @@
 # The entry point of project (JS-dev)
 
-## babel-setup
+[STEP]
 
-## webpack-setup
+- babel-setup
 
-## eslint-setup
+- webpack-setup
+
+- eslint-setup
