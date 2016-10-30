@@ -2,7 +2,7 @@
 
 [STEP]
 
-- babel-setup
+- babel-setup -> compile newest standard method (Ex: ES6...) into browser-readable script
 
 - webpack-setup
 
