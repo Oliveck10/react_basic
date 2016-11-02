@@ -42,8 +42,8 @@ App.defaultProps = {
   // cat : 2,
 };
 
-ReactDOM.render(
-  <App cat={5} />, document.getElementById('app')
-);
+// ReactDOM.render(
+//   <App cat={5} />, document.getElementById('app')
+// );
 
 export default App;
