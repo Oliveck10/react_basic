@@ -3,15 +3,10 @@ var webpack = require('webpack');
 
 module.exports = {
   devtool: 'eval',
-  entry: './src/main',
+  entry: './src/index',
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'index.js',
-  },
-
-  devServer: {
-    inline: true,
-    port: 3333,
+    filename: 'bundle.js',
   },
 
   module: {
