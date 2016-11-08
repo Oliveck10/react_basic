@@ -46,6 +46,10 @@ class App extends React.Component {
         {this.state.green} <br />
         <Slider ref="blue" update={this.update} /> <br />
         {this.state.blue} <br />
+
+        <hr />
+
+        <Button>I <Heart /> React</Button>
       </div>
     );
   }
@@ -78,6 +82,15 @@ class Slider extends React.Component {
     );
   }
 }
+
+class Button extends React.Component{
+  render() {
+    return <button>{this.props.children}</button>
+  }
+}
+
+const Heart = () => <span className="glyphicon glyphicon-heart"></span>
+
 
 // const Widget = (props) => {
 //   return (
