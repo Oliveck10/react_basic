@@ -14,5 +14,6 @@ module.exports = {
       'no-unused-vars': 0,
       'no-var': 0,
       'react/jsx-filename-extension': 0,
+      'react/prefer-stateless-function': 0,
   }
 };
