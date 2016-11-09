@@ -13,7 +13,9 @@
 - eslint-setup
 
 
-[Run]
+[Install & Run]
+
+- `yarn`: install project dependencies
 
 - `yarn build`: compile all js source into one index.js file
 
