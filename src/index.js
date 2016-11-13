@@ -5,4 +5,5 @@ import ReactDOM from 'react-dom';
 import App from './renderOneNode';
 
 
-ReactDOM.render(<App cat={5} />, document.getElementById('app'));
+const dst = document.getElementById('app');
+ReactDOM.render(<App cat={5} />, dst);
