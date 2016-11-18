@@ -30,6 +30,7 @@
     "style-loader": "^0.13.1"
   },
   "dependencies": {
+    "chokidar": "^1.6.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "webpack": "^1.12.14"
